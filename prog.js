@@ -1,0 +1,1 @@
+window.alert("Página em desenvolvimento, algumas coisas precisam ser reajustas!");

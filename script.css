@@ -1,0 +1,122 @@
+body {
+  font-size: 23px;
+  background-color: azure;
+}
+
+header {
+  background-color: #6cd8d8;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;  
+}
+
+img {
+  height: 250px;
+  border: 2px solid #333;
+  display: block;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav li a:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+nav ul li a[href*="twitter"]:before {
+  background: url('Imagens/twitter.png') no-repeat;
+}
+
+nav ul li a[href*="linkedin"]:before {
+  background: url('Imagens/linkedin.png') no-repeat;
+}
+
+nav ul li a[href*="instagram"]:before {
+  background: url("Imagens/instagram.png") no-repeat;
+}
+
+nav ul li a[href*="github"]:before {
+  background: url('Imagens/github-logo.png') no-repeat;
+}
+
+nav2 ul li a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+}  
+
+nav2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  font-size: 28px;
+  text-align: justify;
+  display: flex;
+  align-items: center;  
+}
+
+.container2 img {
+  height: 350px;
+  width: auto;
+}
+
+.container2 p {  
+  flex:  1;
+  margin: 0;
+  padding: 10px;
+}
+
+nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {  
+  text-align: center;
+  background-color: bisque;
+  border-radius: 20px;
+}
